@@ -1,0 +1,15 @@
+Package: missingGroup
+Title: Group-Based Missing Value Analysis
+Version: 0.1.0
+Authors@R: 
+  person("James", "Forward", , "jcforward01@gmail.com", role = c("aut", "cre"))
+Description: A function that groups a data frame by a specified column and calculates the count of missing values in all other columns for each group.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
